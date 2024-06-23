@@ -19,4 +19,17 @@ function reset(){
 }
 
 
+let question = prompt("What's your age", "");
+
+if (question <= 0 || question <= 18){
+    alert("You can check the program out")
+}
+
+else if (question >= 19 && question <= 30){
+    alert("You're old enough to do what ever you pleased")
+}
+
+else{
+    alert("Bomboclate my bro")
+}
 
