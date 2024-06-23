@@ -11,8 +11,12 @@ function increment(){
 function decrement(){
     count--
     countEl.innerHTML = count;
-    if (count === 0){
-        count = 0;
-    }
 }
+
+function reset(){
+    count = 0;
+    countEl.innerHTML = count;
+}
+
+
 
